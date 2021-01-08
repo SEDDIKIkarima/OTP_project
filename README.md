@@ -1,3 +1,5 @@
+https://github.com/SEDDIKIkarima/OTP_project
+
 1. What is it?
 ----------------
 The sender and receiver each have one of the copies.
@@ -8,11 +10,11 @@ When you send a message, you take each number in the message and “shift” it 
 you must change the directory or your files will be saved.
 we will generate the pad we use the following shell command
 
-   >>> python main.py -g
+    >>> python main.py -g
 
 to encrypt a message (read from standard input), use the following command you can specify the pad number used to encrypt for example (dev / random / 0000)
 
-   >>> python main.py -s -d \ [UAPV-SEC] _..._ TP3 \ dev \ random \ 0
+    >>> python main.py -s -d \ [UAPV-SEC] _..._ TP3 \ dev \ random \ 0
    
 we find the decrypt message in the dir-0-0t.txt file
 to decrypt a message, you must specify the name of the file.
